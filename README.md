@@ -5,11 +5,11 @@
 This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
 ### Project Details
-Truffle version **5.5.6**
-openzeppelin version **4.6.0**
-ERC721 Token name **Decentralize Starnotary App**
-ERC721 Token symbol **DSA**
-Rinkeby deployed address **0x8B6E12f92734F7fe57F127BA2B341d24aE4eD1c7**
+1. Truffle version **5.5.6**
+2. openzeppelin version **4.6.0**
+3. ERC721 Token name **Decentralize Starnotary App**
+4. ERC721 Token symbol **DSA**
+5. Rinkeby deployed address **0x8B6E12f92734F7fe57F127BA2B341d24aE4eD1c7**
 
 ### Dependencies
 For this project, you will need to have:
