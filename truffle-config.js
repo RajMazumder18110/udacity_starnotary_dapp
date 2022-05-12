@@ -18,10 +18,9 @@
  *
  */
 
-const HDWalletProvider = require('@truffle/hdwallet-provider');
-const infuraKey = "8abc04a746ab4352bde4df1ad3e7f23b";
+const { infuraId , mnemonic } = require('./secret.js')
 
-const mnemonic = "decide seed enact domain fish thing walk trumpet member kitchen denial cabin";
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
   /**
@@ -64,7 +63,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     rinkeby: {
-      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraId}`),
       network_id: 4,       // Ropsten's id
       gas: 4500000,        // Ropsten has a lower block limit than mainnet
       // confirmations: 2,    // # of confs to wait between deployments. (default: 0)
